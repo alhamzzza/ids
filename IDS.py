@@ -56,12 +56,11 @@ with col5:
 
 
 
-with col5:
     
 
 
-    model = pickle.load(open('rfcmodel.pkl', 'rb'))
-    accuracy = 99.80
+model = pickle.load(open('rfcmodel.pkl', 'rb'))
+accuracy = 99.80
 
 
 
